@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<info>
+  <id>dngviewer</id>
+  <name>DNG Viewer</name>
+  <summary>Shows PNG preview of DNG files and offer download</summary>
+  <description>
+    Allows users to preview .dng files by viewing as a .png, but still allows download of .dng file
+  </description>
+  <version>1.0.0</version>
+  <licence>agpl</licence>
+  <author>Caiden Brown</author>
+  <namespace>dngviewer</namespace>
+  <category>files</category>
+  <default_enable>true</default_enable>
+  <bootstrap>OCA\dngviewer\AppInfo\Application</bootstrap>
+  <dependencies>
+    <nextcloud min-version="29" />
+  </dependencies>
+  <settings>
+    <scripts>
+      <script>js/viewer.js</script>
+    </scripts>
+  </settings>
+</info>
